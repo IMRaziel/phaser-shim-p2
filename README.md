@@ -87,3 +87,4 @@ If you want to use other Phaser version (old or new) in yourself:
 ## Contributors
 
 - @AnimaMundi
+- @thosakwe
