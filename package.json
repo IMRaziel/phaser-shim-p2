@@ -1,16 +1,19 @@
 {
-  "name": "phaser-shim",
+  "name": "phaser-shim-p2",
   "version": "2.4.8",
-  "description": "A shim to make Phaser HTML5 game engine from NPM work with Webpack, and build properly.",
-  "author": "Amo Wu <amo260@gmail.com> (https://github.com/amowu)",
+  "description": "phaser-shim with P2 enabled this time :)",
+  "contributors": [
+    "Amo Wu <amo260@gmail.com> (https://github.com/amowu)",
+    "Tobe O <thosakwe@gmail.com> (https://github.com/thosakwe)"
+  ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://amowu@github.com/amowu/phaser-shim.git"
+    "url": "git+https://thosakwe@github.com/thosakwe/phaser-shim-p2.git"
   },
   "scripts": {
-    "build": "cd node_modules/phaser && npm install && grunt custom --exclude p2,creature,ninja --split true",
+    "build": "cd node_modules/phaser && npm install && grunt custom --exclude creature,ninja --split true",
     "postbuild": "gulp build",
     "prepublish": "npm run build"
   },
@@ -28,7 +31,9 @@
     "es6",
     "es2015",
     "webpack",
-    "babel"
+    "babel",
+    "p2",
+    "phaser"
   ],
   "devDependencies": {
     "grunt": "^0.4.5",
