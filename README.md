@@ -72,7 +72,7 @@ module: {
   // ...
   loaders: [{
     loader: 'script',// script-loader
-    test: /(pixi|phaser).js/
+    test: /(pixi|phaser|p2).js/ // Note the addition of 'p2'
   }],
   // ...
 }
