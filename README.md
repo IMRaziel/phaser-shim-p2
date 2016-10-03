@@ -12,7 +12,8 @@ npm install phaser-shim-p2 --save
 
 ## Usage
 
-This version can be used in the same way as the original `phaser-shim`.
+This version can be used in the same way as the original `phaser-shim`. I also upgraded to the newest Phaser version
+(currently ^2.6.2).
 
 ### Module
 
