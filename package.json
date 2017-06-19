@@ -13,7 +13,7 @@
     "url": "git+https://thosakwe@github.com/thosakwe/phaser-shim-p2.git"
   },
   "scripts": {
-    "build": "cd node_modules/phaser && npm install && grunt custom --exclude creature,ninja --split true",
+    "build": "cd node_modules/phaser-ce && npm install && grunt custom --exclude creature,ninja --split true",
     "postbuild": "gulp build",
     "prepublish": "npm run build"
   },
